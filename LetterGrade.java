@@ -27,7 +27,7 @@ public class LetterGrade extends StudentGrade {
     }
 
     @Override
-    public int getGrade() {
+    public int getGrade(int i) {
         switch (grade) {
             case 'A':
                 return 1;

@@ -24,5 +24,5 @@ public abstract class StudentGrade {
     }
     public abstract String classifyGrade();
 
-    public abstract int getGrade();
+    public abstract int getGrade(int i);
 }

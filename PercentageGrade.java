@@ -29,7 +29,7 @@ public class PercentageGrade extends StudentGrade {
         return (grade >= 70) ? "Distinction" : (grade >= 50) ? "Merit" : (grade >= 40) ? "Pass" : "Fail";
     }
     @Override
-    public int getGrade() {
+    public int getGrade(int i) {
         return grade;
     }
 
